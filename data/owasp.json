@@ -1,1 +1,5 @@
-
+{
+  "sql injection": "SQL Injection ek web vulnerability hai jisme attacker malicious input ke through database queries manipulate karta hai.",
+  "xss": "Cross-Site Scripting (XSS) ek attack hai jisme attacker victim ke browser me malicious JavaScript run karwata hai.",
+  "broken authentication": "Broken Authentication tab hota hai jab login, session ya password system weak hota hai."
+}
