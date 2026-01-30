@@ -26,3 +26,19 @@ function handleQuery() {
 function output(text) {
   document.getElementById("output").textContent = text;
 }
+async function searchLocal(query) {
+  const files = ["data/owasp.json"];
+
+  for (let file of files) {
+    const res = await fetch(file);
+    const data = await res.json();
+
+    for (let key in data) {
+      if (query.includes(key)) {
+        output(data[key]);
+        return true;
+      }
+    }
+  }
+  return false;
+}
