@@ -1,1 +1,43 @@
+body {
+  background-color: #050505;
+  color: #00ff99;
+  font-family: monospace;
+}
 
+.terminal {
+  width: 80%;
+  margin: 50px auto;
+  border: 1px solid #00ff99;
+  padding: 20px;
+  box-shadow: 0 0 20px #00ff99;
+}
+
+h1 {
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 12px;
+  color: #66ffcc;
+}
+
+input {
+  width: 80%;
+  padding: 8px;
+  background: black;
+  color: #00ff99;
+  border: 1px solid #00ff99;
+}
+
+button {
+  background: #00ff99;
+  color: black;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+pre {
+  margin-top: 20px;
+  white-space: pre-wrap;
+}
